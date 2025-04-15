@@ -1,0 +1,228 @@
+@import '/src/styles/colors.scss';
+
+.sidebarContainer {
+  display: flex;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(242, 242, 242);
+  color: #2c1f1f;
+  transition: width 0.3s;
+  overflow-y: auto;
+
+  &__logo {
+    width: 87px;
+    margin: 13px 12px;
+  }
+
+  &__logo_closed {
+    width: 50px;
+    margin: 20px 0;
+  }
+
+  &__divider {
+    width: 52%;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.22);
+    margin: -4px 4px;
+  }
+}
+  .menu_label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20%;
+    font-size: 14px;
+    color: #d38282;
+  }
+
+  .active_menu_label {
+    color: var(--jems-color);
+  }
+
+  // .sidebar__indicator {
+  //   background-color: #ff7800;
+  //   padding: 0px 6px 0px 3px;
+  //   border-radius: 8px;
+  //   width: 13px;
+  //   height: 100%;
+  //   left: 2px;
+  //   margin-left: -42px;
+  // }
+  .sidebar__indicator {
+    width: 12px;
+    background-color: #ff7800;
+    padding: 0px 6px 0px 3px;
+    border-radius: 4px;
+    left: -41px;
+    height: 32px;
+    transition: background-color 0.3s;
+    position: absolute;
+
+    &__closed {
+      background-color: #ff7800;
+      height: 33px;
+      left: -40px;  
+      position: absolute;
+      width: 15px;
+      border-radius: 4px;
+    }
+  }
+  .profile_link {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+
+    .avatar_image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    button.avatar_logo {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 10px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .avatar_icon {
+      width: 58px;
+      height: 50px;
+    }
+  }
+
+  .sidebar__section {
+    margin-top: 29%;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+  }
+
+  .sidebar__section_title {
+    font-size: 11px;
+    color: gray;
+    text-align: center;
+    &__opened {
+      font-size: 14px;
+    }
+  }
+
+  .sidebar__bottom {
+    margin-top: auto;
+    width: 93%;
+    padding: 13px 13px;
+  }
+
+  .sidebar__divider_bottom {
+    width: 60%;
+    height: 2px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.23);
+    padding: unset;
+  }
+  .sidebar__links {
+    margin-top: 7%;
+
+    &--item {
+      border-radius: 0 10px 50px 0;
+      margin: 20px 0;
+      width: 100%;
+    }
+  }
+  .sidebar__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    padding: 17px 0;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+
+    &:focus {
+      outline: #9a5443;
+    }
+
+    &.sidebar__link_active {
+      background-color: rgba(215, 211, 211, 0.42);
+      border-radius: 10%;
+      margin-bottom: 22%;
+      padding: 5px 7px 5px 7px;
+      color: #d38282;
+    }
+
+  }
+    .avatar_image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+.sidebar__chevron {
+  position: absolute;
+  top: 53px;
+  right: -16px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: black;
+  padding: 0;
+  overflow: hidden;
+}
+.sidebar__chevron_opened {
+  position: absolute;
+  top: 63px;
+  right: -16px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: black;
+  padding: 0;
+  overflow: hidden;
+}
+
+.chevron_opened {
+  width: 100%;
+  height: 100%;
+  fill: none !important;
+}
+
+.icon {
+  color: #c7c7c7fa; /* Inactive color */
+  transition: color 0.3s;
+  // fill: none !important;
+  // stroke: #808080 !important;
+}
+
+.icon_active {
+  color: #ff7800; /* Active orange color */
+  transition: color 0.3s;
+  // fill: none !important;
+  // stroke:#ff7800 !important;
+}

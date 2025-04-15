@@ -1,0 +1,896 @@
+@import '/src/styles/colors.scss';
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll
+}
+
+.sidebarOpen {
+  width: 250px;
+  transition: width 0.3s;
+  background-color: #f4f4f4;
+  padding: 16px;
+}
+
+.sidebarClosed {
+  width: 80px;
+  transition: width 0.3s;
+  background-color: #f4f4f4;
+  padding: 16px;
+}
+.mainContent {
+  flex-grow: 1;
+  padding: 16px;
+  transition: margin-left 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContentWithSidebarOpen {
+  margin-left: 124px;
+}
+
+.mainContentWithSidebarClosed {
+  margin-left: 109px;
+}
+
+.heading {
+  margin-top: 68px;
+  margin-left: -94px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: -98px;
+  margin-top: 36px;
+  margin-right: 17px;
+}
+
+.card_resume,
+.card_participant,
+.card_project,
+.card_ppt,
+.card_contribution {
+  margin-bottom: 6px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--lightgrey);
+  word-break: break-all;
+  padding: 14px;
+  box-sizing: border-box;
+  flex: 1 2 calc(34% - 36px);
+}
+
+.card_ppt {
+  margin-right: 5px;
+}
+
+.card_contribution {
+  width: 20%
+}
+
+.card_resume {
+  flex: 2 1 calc(66% - 32px);
+}
+
+.cardBody {
+  padding: 16px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  color: #555;
+  max-height: 200px;
+}
+.cardBodypp {
+  padding: 16px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  color: #555;
+  max-height: 200px;
+  margin-left: -23px;
+  margin-right: -16px;
+}
+.participType {
+  font-family: "Arial";
+  color: #1616e9b4;
+  margin-left: 59px;
+
+}
+.chevronOpened {
+  transform: rotate(180deg); // Points up
+  transition: transform 0.3s ease;
+  transform: translate(7px, -4px);
+  width: 12px;
+
+}
+.avatarIcon {
+  width: 40px; /* Adjust as necessary */
+  height: 40px; /* Adjust as necessary */
+  border-radius: 50%; /* For round avatar */
+  object-fit: cover; /* Ensures the image covers the area */
+}
+.avatarParticipant{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%; /* For round avatar */
+  object-fit: cover; 
+  margin-right: 12px;
+}
+.chevronClosed {
+  transform: rotate(0deg); // Points down
+  transition: transform 0.3s ease;
+  transform: translate(6px, 0px);
+  width: 12px;
+
+}
+.participLable {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  font-family: "Arial";
+  color: black;
+  font-weight: 400;
+  transform: translate(6px, 0px);
+
+}
+
+.ppt_icon {
+  margin-right: 5px;
+  width: 24px;
+  height: 18px;
+}
+
+.ppt_icon_link {
+  display: flex;
+  //flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 17%;
+  margin-top: -3%;
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  button.avatar_logo {
+    width: 39px;
+    height: 34px;
+    border-radius: 99%;
+    margin-right: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: transparent;
+    border: none;
+  }
+}
+
+.avatar_icon {
+  margin-right: 8px; // Space between the avatar and the name
+  width: 50px;
+  height: 50px;
+}
+
+.nameWithAvatar {
+  display: flex;
+  align-items: center;
+  margin-bottom: -9px;
+  transform: translate(-7px, 4px);
+}
+
+.list_participant {
+  padding: 22px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #555;
+  margin-top: 14px;
+  margin-bottom: -2px;
+  padding-left: 1px;
+  margin-left: -23px;
+}
+
+.list {
+  transform: translate(-82px, -100px);
+}
+
+/* Optional: Style for the scrollbar */
+.cardBody::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+.buttonSeeMore{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 23px 17px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: var(--white);
+  font-size: 17px;
+  transform: translate(211%, -16px);
+  width: 32%;
+  padding: 0; // Optional: adjust padding for text-only appearance
+  color: inherit; // Use inherited text color
+  cursor: pointer; // Ensure pointer cursor on hover
+
+  &:hover,
+  &:focus {
+    outline: none; // Disable focus outline
+    background: none; // Remove hover background
+    border: none; // Remove hover border
+    color: inherit; // Keep text color consistent
+  }
+
+  &:active {
+    outline: none; // Ensure no outline on click
+    background: none;
+  }
+}
+.cardBody::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.cardBody::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovered */
+}
+
+
+.button_item_op {
+  width: 15%;
+  text-align: left;
+  font-size: xx-small;
+  color: black;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.projectTitleHeader {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  transform: translate(-16px, -9px);
+  margin-top: 14px;
+}
+.projectTitlecom {
+  font-size: 11px;
+  margin-bottom: 6px;
+  transform: translate(-25px, -14px);
+}
+.projectName {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 16px; /* Space between elements */
+}
+
+.icon {
+  display: flex; /* Ensures icon is centered */
+  align-items: center;
+  justify-content: center;
+  width: 24px; /* Adjust based on your icon size */
+  height: 24px;
+}
+.send_email {
+  width: 10%;
+  text-align: center;
+  font-size: small;
+  color: white;
+  font-weight: bolder;
+  transform: translate(461px, -52px);
+  background-color: rgba(8, 42, 227, 0.8588235294);
+  border-radius: 14px;
+  margin: 78px auto -84px 3px;
+  position: fixed;
+}
+
+.button {
+  width: 10%;
+  position: absolute;
+  right: 6%;
+  transform: translate(10%, -91%);
+  background: linear-gradient(90deg, rgba(10, 0, 187, 0.92) 0%, rgba(71, 14, 240, 0.84) 81%);
+}
+
+.label {
+  margin-bottom: 0px;
+  font-style: normal;
+  font-size: 13px;
+  
+}
+.label_seeAll{
+  font-size: 12px;
+  color: #007bff;
+  cursor: pointer;
+  margin-right: -52%; 
+}
+.aiicon {
+  width: 20px;
+  fill: white !important;
+  right: 72%;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+}
+.projectTitle {
+  font-size: 16px; /* Adjust for title size */
+  font-weight: bold; /* Makes the title stand out */
+  color: #333; /* Change color as needed */
+}
+
+.status {
+  margin-left: auto; /* Push status to the far right */
+  font-size: 14px;
+  color: #999; /* Lighter color for status */
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  transform: translate(-25px, -94px);
+  fill: none !important;
+  width: 17%;
+  position: fixed;
+}
+.company {
+  transform: translate(-18px, -20px);
+  fill: none !important;
+  width: 64%;
+  // width: 13%;
+  // width: 30px;
+  // height: 19px;
+  // color: gray;
+  // padding: 0;
+  // overflow: hidden;
+  // fill: none !important;
+  // stroke-opacity: 100%;
+  // margin-left: 93%;
+  // stroke-width: 3%;
+  // margin-top: -20px;
+}
+.successMessage {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 43px;
+  //color: #d9591aa8;
+  color: var(--jems-color);
+
+}
+
+.button_item_particp {
+  width: 36%;
+  text-align: left;
+  font-size: xx-small;
+  color: black;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.label_style {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.emailLabel {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+/* Email Label */
+.emailLabel {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: 500;
+  display: block;
+}
+
+
+.send_email:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.send_email:hover:enabled {
+  background-color: #0056b3;
+}
+
+/* Participant List */
+.participantsContainer {
+  margin-top: 59px;
+}
+
+.participantsTitle {
+  font-size: 14px;
+  font-weight: 590;
+  color: #7b7a7ad6;
+  margin-bottom: 7px;
+}
+
+.participantList {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participantItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.participantLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+// .nameWithAvatar {
+//   display: flex;
+//   align-items: center;
+//   transform: translate(-7px, 4px);
+// }
+
+.avatarIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.participantName {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.participantType {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.participantItem:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+/* Success and Error Messages */
+.successMessage {
+  margin-top: 10px;
+  color: green;
+  font-weight: 500;
+}
+
+.errorMessage {
+  margin-top: 10px;
+  color: red;
+  font-weight: 500;
+}
+
+.download,
+.chevron_opened {
+  display: flex;
+  flex-direction: row-reverse;
+  transform: translateY(-113%);
+  width: 30px;
+  height: 19px;
+  color: gray;
+  padding: 0;
+  overflow: hidden;
+  fill: none !important;
+  stroke-opacity: 100%;
+  margin-left: 93%;
+  stroke-width: 3%;
+}
+.versionInfo{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem; 
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; // Adjust spacing between buttons
+}
+
+// .downloadppt, .reload {
+//   cursor: pointer;
+//   display: flex;
+//   flex-direction: row-reverse;
+//   width: 30px;
+//   height: 19px;
+//   color: gray;
+//   padding: 0;
+//   overflow: hidden;
+//   fill: none !important;
+//   stroke-opacity: 95%;
+//   margin-left: 88%;
+//   stroke-width: 7%;
+// }
+
+.downloadLink {
+  display: none; // If only used programmatically
+}
+.ppt_icon_lin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; // Optional, adjusts spacing if needed
+}
+.downloadppt {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 30px;
+  height: 19px;
+  color: gray;
+  padding: 0;
+  overflow: hidden;
+  fill: none !important;
+  stroke-opacity: 95%;
+  margin-left: 37%;
+  stroke-width: 7%;
+}
+.reload{
+  width: 30px;
+  height: 19px;
+  
+}
+.contribution {
+  display: flex;
+  flex-direction: row-reverse;
+  transform: translate(4px, -20px);
+  width: 33px;
+  height: 16px;
+  color: gray;
+  padding: 0;
+  overflow: hidden;
+  fill: none !important;
+  stroke-opacity: 100%;
+  margin-left: 93%;
+}
+
+.send {
+  width: 27px;
+  fill: none !important;
+  right: 65px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+}
+
+.add {
+  width: 17px;
+  right: 65px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+}
+
+.input__emailInput {
+  width: 73%;
+  height: 44px;
+  padding-right: 17%;
+  padding-left: 12px;
+  border: 1px solid var(--lightgrey);
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--dark);
+  transform: translate(-1px, 4px);
+    &.error {
+    border-color: red;
+    background-color: #ad3030;
+  }
+
+  // // Default style for large screens
+  // @media (min-width: 1024px) {
+  //   width: 60%; /* Adjust width for larger screens */
+  //   padding-left: 15px;
+  //   padding-right: 15%;
+  //   transform: translate(20px 10px);
+  // }
+
+  // // Styles for tablets
+  // @media (min-width: 768px) and (max-width: 1023px) {
+  //   width: 70%; /* Adjust width for medium screens */
+  //   height: 40px; /* Slightly smaller height */
+  // }
+
+  // // Styles for mobile screens
+  // @media (max-width: 767px) {
+  //   width: 90%; /* Full width for small screens */
+  //   height: 38px; /* Adjusted height */
+  //   padding-left: 10px;
+  //   padding-right: 10%;
+  // }
+}
+
+
+
+/* Add Email Button */
+.addEmailButton {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Container for the list of emails */
+.emailList {
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/* Style for each email in the list */
+.emailListItems {
+  list-style: none;
+  padding: 0;
+}
+
+.emailListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.emailText {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.removeEmailButton {
+  font-size: 18px;
+  color: #f44336; /* Red color for the remove button */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.successMessage {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.profile_link {
+  display: flex;
+  //flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 17%;
+  margin-top: -3%;
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  button.avatar_logo {
+    width: 39px;
+    height: 34px;
+    border-radius: 99%;
+    margin-right: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: transparent;
+    border: none;
+  }
+}
+
+// .profile_link {
+//   display: flex;
+//   justify-content: flex-start;
+
+//   svg {
+//     height: 10%;
+//     width: 10%;
+//   }
+
+//   // button.avatar_logo {
+//   //   display: flex;
+//   //   align-items: center;
+//   //   padding: 0;
+//   //   margin: 11px;
+//   //   background: none;
+//   //   border: none;
+//   // }
+
+//   .avatar_icon {
+//     width: 10px;
+//     height: 10px;
+//   }
+// }
+// .emailInput {
+//   width: 75%;
+//   height: 43px;
+//   padding-right: 12%;
+//   padding-left: 13px;
+//   border: 1px solid var(--lightgrey);
+//   border-radius: 10px;
+//   background-color: var(--white);
+//   color: var(--dark);
+//   transform: translate(-2px, 0px);
+// }
+
+.additionalEmailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.emailTag {
+  display: flex;
+  align-items: center;
+  background-color: #6a666636;
+  border: 1px solid #ccc6;
+  border-radius: 20px;
+  padding: 7px 14px;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #626257;
+}
+
+
+.removeEmail {
+  cursor: pointer;
+  color: #d32f2f;
+  margin-left: 7px;
+  font-size: 16px;
+}
+
+.send_email {
+  margin-top: 10px;
+}
+
+.participantList {
+  list-style: none;
+  padding: 0;
+}
+
+.participantItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.participantLabel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.participantName {
+  margin-left: 10px;
+}
+
+.participantType {
+  font-size: 12px;
+  color: #888;
+}
+
+.cardProject {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 11px;
+  background-color: #fff;
+  max-width: 31%;
+  width: 100%;
+  padding-bottom: 7%;
+  margin-right: 0%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 40%;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;}
+
+.headerLeft .label {
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: -40px;
+}
+
+.headerRight .timerIcon {
+  margin-right: 15px;
+ 
+
+}
+
+
+.cardBody .projectName {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  margin-left: -28px;
+  margin-top: -11px;
+  flex-direction: row;
+}
+
+.statuss {
+  background-color: rgba(255, 224, 179, 0.5882352941);
+  border-radius: 10px;
+  padding: 9px 33px;
+  font-size: 10px;
+  color: #d9822b;
+  margin-left: 17%;
+  transform: translate(24px, -19px);
+  height: 30px;
+  align-content: center;
+  width: 37%;
+}
+
+.projectDetails {
+  margin-top: 18px;
+  margin-bottom: -40px;
+  transform: translate(-17px, 0px);
+  .detailRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    margin-right: -108px;
+    padding-top: 9px;
+    transform: translate(0px, -35px);
+    gap: 35px;
+
+    p {
+      flex: 2;
+      margin: 4px 4px;
+      font-size: 13px;
+    }
+  }
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 1200px) {
+  .card_resume {
+    flex: 1 1 calc(100% - 32px);
+  }
+
+  .card_participant,
+  .card_project,
+  .card_ppt,
+  .card_contribution {
+     flex: 1 1 calc(40% - 3px); /* Adjust width to account for gap and padding */
+  }
+}
+
+@media (max-width: 768px) {
+  .card_resume,
+  .card_participant,
+  .card_ppt,
+  .card_contribution {
+    flex: 1 1 calc(10% - 2px); /* Adjust width to account for gap and padding */
+  }
+}

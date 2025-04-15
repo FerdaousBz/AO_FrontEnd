@@ -1,0 +1,118 @@
+// .button {
+//   width: 101%;
+//   height: 3vw;
+//   border-radius: 0.5vw;
+//   background: var(--jems-color);
+//   border: none;
+//   font-family: 'Montserrat';
+//   font-size: 1vw;
+//   color: #ffffff;
+//   cursor: pointer;
+//   margin-top: 0vw;
+// }
+.button {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  padding: 23px 17px;
+  width: 101%;
+  height: 3px;
+  border: none;
+  border-radius: 10px;
+
+  color: var(--white);
+  font-size: 20px;
+
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.icon {
+  justify-content: start;
+  svg {
+    margin-right: 20px;
+  }
+}
+
+.only-icon {
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  min-height: 18px;
+  padding: 0;
+
+  border-radius: 50%;
+
+  background: none;
+  svg {
+    fill: currentColor;
+  }
+}
+
+.btn-light {
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+.btn-dark {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.btn-primary {
+  background: var(--jems-color);
+}
+
+.btn-secondary,
+.btn-noOutline:hover {
+  //background-color: var(--white);
+  color: var(--violet-red);
+  font-weight: bold;
+}
+
+.btn-noOutline {
+  border: none;
+  background: none;
+}
+
+.btn-outline {
+  // border: 1px solid var(--yellow-orange);
+  background: transparent;
+  color: var(--dark);
+}
+
+.btn-link {
+  background: none;
+
+  color: var(--violet-red);
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.btn-s {
+  padding: 5px 8px;
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.btn-m {
+  padding: 10px 35px;
+  font-size: 15px;
+  border-radius: 25px;
+}
+.btn-m:hover {
+  background: var(--jems-color);
+  color: var(--white);
+}
+.btn-light:hover {
+  filter: invert(1);
+}
+
+.btn-l {
+  justify-content: center;
+  width: 100%;
+}

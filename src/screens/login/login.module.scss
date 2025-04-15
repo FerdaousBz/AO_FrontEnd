@@ -1,0 +1,54 @@
+@import '/src/styles/globals.scss';
+.label {
+  margin-bottom: 3px;
+  font-style: normal;
+  font-size: 14px;
+  color: #333;
+  font-weight: bolder;
+  margin-right: 85%;
+}
+
+.text_area {
+  position: relative;
+  width: 97%;
+  margin-bottom: 15px;
+}
+
+.checkbox_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.checkbox {
+  margin-right: 4px;
+}
+
+.checkbox_label {
+  font-family: 'Montserrat regular';
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 4px;
+}
+
+.forgot_password {
+  font-family: 'Montserrat regular';
+  font-size: 13px;
+  color: rgb(242, 138, 71);
+  text-decoration: none;
+}
+
+.create_account {
+  font-family: 'Montserrat regular';
+  font-size: 10px;
+  color: #3333335d;
+  text-decoration: none;
+  margin-top: 27px;
+  padding-bottom: unset;
+}
+
+.highlight {
+  color: rgb(242, 138, 71);
+}

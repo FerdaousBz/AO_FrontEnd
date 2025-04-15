@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  // background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  // border: 1px solid var(--lightgrey);
+}
+
+.cardHeader {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 486;
+  font-size: 14px;
+}
+
+.cardBody {
+  padding: 16px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  color: #555;
+  overflow-y: scroll;
+}
+
+.cardFooter {
+  //border-top: 1px solid #e0e0e0;
+  padding-top: 5px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 100;
+  color: #555;
+  margin-bottom: -21px;
+  margin-top: 7px;
+}

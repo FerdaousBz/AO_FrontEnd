@@ -1,0 +1,37 @@
+.img {
+  width: var(--img-width);
+  height: var(--img-height);
+}
+
+.img-x-small {
+  width: 11em;
+  height: 11em;
+}
+
+.img-small {
+  width: 14em;
+  height: 14em;
+}
+
+.img-medium {
+  width: 10em;
+  height: 10em;
+}
+
+.img-large {
+  width: 25em;
+  //   height: 25em;
+}
+
+.img-x-large {
+  width: 35em;
+}
+
+.img-xx-large {
+  width: 50em;
+}
+.unde_cons_image_typo {
+  margin: 0 auto !important;
+  align-self: center;
+  width: 500px;
+}

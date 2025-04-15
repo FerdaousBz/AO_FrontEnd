@@ -1,0 +1,79 @@
+@import './colors.scss';
+@import './reset.scss';
+@import './fonts.scss';
+
+:root {
+  --icon-size-s: 36px;
+  --icon-size-m: 48px;
+  --icon-size-xxs: calc(var(--icon-size-s) / 2);
+  --icon-size-xs: calc(var(--icon-size-m) / 2);
+  --icon-size-l: calc(var(--icon-size-s) * 2);
+  --icon-size-xl: calc(var(--icon-size-m) * 2);
+  --icon-size-xxl: calc(var(--icon-size-m) * 3);
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--jems-color); /* Set the color of the thumb */
+  border-radius: 6px; /* Set the border radius of the thumb */
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+:global {
+  .center {
+    margin: auto;
+  }
+
+  .full-screen {
+    height: 100%;
+    width: 100%;
+  }
+}
+// Mixin to hide scrollbars
+@mixin hide-scrollbars {
+  // For WebKit browsers (e.g., Chrome, Safari)
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  // For Firefox
+  scrollbar-width: none;
+
+  // For Internet Explorer and Edge (Legacy)
+  -ms-overflow-style: none;
+}
+
+// Apply the mixin to global elements
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; // Hide overflow to prevent scrollbars
+  @include hide-scrollbars;
+}
+
+// Apply the mixin to all elements
+* {
+  @include hide-scrollbars;
+}

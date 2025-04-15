@@ -1,0 +1,50 @@
+.select {
+  position: relative;
+}
+
+.select__label {
+  font-weight: bold;
+  margin: 0 5px 12px 5px;
+  color: var(--dark);
+  display: block;
+}
+
+.select__select {
+  width: 100%;
+  height: 50px;
+  appearance: none;
+
+  background-image: url('/images/dropdown.png'); // Replace with the actual path to your icon
+  background-repeat: no-repeat;
+  background-position: right 30px center; // Position your icon accordingly
+  background-size: 20px; // Adjust the size of your icon
+  cursor: pointer;
+  padding: 5px 20px;
+
+  border: 1px solid var(--lightgrey);
+  border-radius: 10px;
+
+  background-color: var(--white);
+
+  color: var(--dark);
+}
+
+.select:disabled {
+  color: var(--gray);
+
+  cursor: not-allowed;
+}
+
+.select__error {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  width: 18px;
+  height: 18px;
+}
+
+.error {
+  padding-right: 45px;
+
+  border: 1px solid var(--danger);
+}

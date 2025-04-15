@@ -1,0 +1,81 @@
+@import '/src/styles/globals.scss';
+.label {
+  margin-bottom: 0px;
+  font-style: normal;
+  font-size: 14px;
+  color: #333;
+  font-weight: bolder;
+  margin-right: 85%;
+}
+
+.text_area {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2px;
+}
+// Define styling for the OTP input container
+.otp_input_container {
+  display: flex;
+  padding: 29%;
+  padding-top: 18px;
+  padding-bottom: 4%;
+}
+
+// Define styling for each OTP input field
+.otp_input {
+  width: 54px;
+  height: 54px;
+  margin-right: 8px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 0.5px; // Add border-radius for rounded corners
+}
+
+// Hide browser's default focus outline
+.otp_input:focus {
+  outline: none;
+}
+
+.highlight {
+  color: rgb(242, 138, 71);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 18px;
+  width: 96%;
+  height: -1px;
+  border: none;
+  border-radius: 9px;
+  color: var(--white);
+  font-size: 17px;
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+.timer {
+  font-size: 10px;
+  color: gray;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.create_account {
+  font-family: 'Montserrat regular';
+  font-size: 10px;
+  color: #3333335d;
+  text-decoration: none;
+  margin-top: 18px;
+  padding-bottom: unset;
+}
+
+.highlight {
+  color: rgb(242, 138, 71);
+}
+.highlightTimer {
+  color: black;
+}

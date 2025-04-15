@@ -1,0 +1,355 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  margin-left: -92px;
+}
+
+.suggestionsList {
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: white;
+  margin-top: 5px;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.searchBox {
+  position: relative; // Positionner le parent en relative
+}
+
+.suggestionsList {
+  position: absolute; // Positionner la liste des suggestions en absolute
+  top: 100%; // Positionner juste en dessous du champ de recherche
+  left: 0; // Aligner à gauche
+  right: 0; // Étirer pour correspondre à la largeur du champ de recherche
+  background-color: white; // Assurez-vous que le fond est visible
+  z-index: 10; // S'assurer que la liste est au-dessus des autres éléments
+  border: 1px solid #ccc; // Optionnel : ajouter une bordure
+  max-height: 200px; // Limite de hauteur pour éviter que la liste ne soit trop longue
+  overflow-y: auto; // Ajouter un défilement si nécessaire
+}
+
+.suggestionItem {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggestionItem:hover {
+  background-color: #f0f0f0;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.filterButton {
+  display: flex;
+  align-items: center;
+  padding: 8px 19px;
+  border: 2px solid #d1d5db;
+  background-color: #fff;
+  color: #6366f1;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.selectedButton {
+  outline: 2px solid #000; /* Example outline */
+  border: none; /* Remove default button border */
+  background-color: #f0f0f0; /* Optional background change when selected */
+}
+
+.filterButton .icon {
+  margin-right: 8px;
+  color: #6366f1;
+  width: min-content;
+}
+
+.vue {
+  width: 20px;
+  right: 65px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 8px;
+  fill: white !important;
+  transform: translate(-8px, -1px);
+}
+
+.filterText {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.filterText .icon {
+  margin-right: 8px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.searchIcon {
+  color: #9ca3af;
+  margin-right: 8px;
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: #9ca3af;
+  font-size: 15px;
+}
+
+.chevron_opened {
+  display: flex;
+  flex-direction: row-reverse;
+  transform: translate(-8px, -1px);
+  width: 26px;
+  height: 17px;
+  color: gray;
+  padding: 0;
+  overflow: hidden;
+  fill: none !important;
+  stroke-opacity: 86%;
+  margin-left: 34%;
+  stroke-width: 11%;
+
+}
+
+.chevronIcon {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+
+.profile {
+  height: 50px;
+  width: 17px;
+  right: 65px;
+  display: flex;
+  flex-direction: column-reverse;
+  fill: gray !important;
+  transform: translate(-8px, -1px);
+  margin-left: 8px;
+}
+
+
+// filters.module.scss
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+
+  .filterLabel {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+}
+
+.filterSelect {
+  appearance: none; // Masque le style par défaut du select
+  -webkit-appearance: none; // Pour Safari
+  -moz-appearance: none; // Pour Firefox
+  background-color: #fff; // Couleur de fond
+  border: 1px solid #ccc; // Bordure
+  padding: 10px; // Remplissage
+  border-radius: 4px; // Coins arrondis
+  cursor: pointer; // Curseur en forme de main
+  width: 100%; // Prend toute la largeur
+  font-size: 16px; // Taille de la police
+  outline: none; // Supprime le contour par défaut
+  position: relative; // Position relative pour le pseudo-élément
+
+  // Ajout d'une flèche pour indiquer le menu déroulant
+  &::after {
+    content: '▼'; // Flèche vers le bas
+    position: absolute;
+    right: 10px; // Espace à droite
+    top: 50%; // Centrer verticalement
+    transform: translateY(-50%); // Ajuster la position
+    pointer-events: none; // Ignore les événements de souris
+  }
+
+  // Styles pour le menu déroulant (optionnel)
+  option {
+    padding: 10px; // Remplissage des options
+  }
+}
+
+.dropdownIcon {
+  fill: rgb(175, 62, 62) !important;
+  width: 17px;
+  height: 22px;
+}
+
+.scrollContainer {
+  max-height: 200px; /* Adjust height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  background-color: white; /* Optional: Set background color */
+}
+
+.dropdownWrapper {
+  position: relative;
+}
+
+.transportBox {
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 4px 20px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+}
+.rightContainer {
+  display: flex;
+  align-items: center; /* Aligne les éléments verticalement */
+  justify-content: flex-end; /* Aligne les éléments à droite */
+  gap: 16px; /* Espace entre les filtres et la barre de recherche */
+  flex-grow: 1; /* Permet au conteneur de prendre tout l'espace restant */
+}
+.transportInput {
+  flex: 1;
+  color: #9ca3af;
+  font-size: 15px;
+}
+
+.dropdownList {
+  position: absolute;
+  top: 100%; /* Positionne juste en dessous du champ */
+  left: 0;
+  right: 0;
+  background-color: #f3f4f6;
+  border: 1px solid white;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 400px; /* Limite de hauteur */
+  overflow-y: auto; /* Ajoute un défilement si nécessaire */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  scrollbar-width: thin; /* Pour Firefox */
+  scrollbar-color: #8ac5ff #9ca3af; /* Couleur du thumb et de la track */
+}
+
+/* Styles pour le scrollbar */
+.dropdownList::-webkit-scrollbar {
+  width: 15px; /* Largeur du scrollbar */
+}
+
+.dropdownList::-webkit-scrollbar-track {
+  background: #c7e3ff; /* Couleur de fond */
+  border-radius: 5px; /* Coins arrondis */
+}
+
+.dropdownList::-webkit-scrollbar-thumb {
+  background: #8ac5ff; /* Couleur du thumb */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+.dropdownList::-webkit-scrollbar-thumb:hover {
+  background: #6cb6ff; /* Couleur du thumb au survol */
+}
+
+
+.dropdownItem {
+  padding: 3px 12px;
+  cursor: pointer;
+  white-space: nowrap; /* Empêche le texte de s'étendre sur plusieurs lignes */
+  overflow: hidden; /* Évite que le texte déborde */
+  text-overflow: ellipsis; /* Affiche "..." si le texte est trop long */
+}
+
+.dropdownItem:hover {
+  background-color: #f3f4f6; /* Ajoute un effet de survol */
+}
+
+.customSelect {
+  position: relative;
+  cursor: pointer;
+}
+
+.selectSelected {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.customSelect {
+  position: relative;
+  cursor: pointer;
+}
+
+.selectSelected {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.selectItems {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 200px; /* Ajustez la hauteur selon vos besoins */
+  overflow-y: auto; /* Ajoute une barre de défilement */
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.selectItem {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selectItem:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdownList {
+  position: absolute;
+  max-height: 200px; /* Ajustez la hauteur selon vos besoins */
+  overflow-y: auto; /* Ajoute une barre de défilement */
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.dropdownList li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdownList li:hover {
+  background-color: #f0f0f0;
+}

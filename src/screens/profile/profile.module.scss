@@ -1,0 +1,137 @@
+@import '/src/styles/colors.scss';
+.form {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 4;
+    // form {
+    //   flex-basis: 60%;
+    // }
+  }
+  .sidebarClosed {
+    width: 80px;
+    transition: width 0.3s;
+    background-color: #f4f4f4;
+    padding: 16px;
+  }
+  .heading {
+    margin-top: 66px;
+    margin-left: -106px;
+  }
+  .mainContent {
+    flex-grow: 1;
+    padding: 16px;
+    transition: margin-left 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: left; // Center content horizontally
+  }
+  
+  .mainContentWithSidebarOpen {
+    margin-left: 124px;
+  }
+  
+  .mainContentWithSidebarClosed {
+    margin-left: 109px;
+  }
+  .cardsWrapper {
+    display: flex;
+    gap: 24%;
+    flex-wrap: wrap;
+    justify-content: center; // Center cards within the wrapper
+    margin-top: 20px; // Add some spacing from the heading
+    margin-left: -83px;
+    }
+    .cardContainer {
+      flex: 1;
+      max-width: 439px;
+      box-sizing: border-box;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      height: 489px;
+      border: 1px solid var(--lightgrey);
+      border-radius: 8px;
+      margin-top: 45px;
+    }
+    .profileCardHeader{
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        border-bottom:none !important;
+    }
+    .profileCardBody{
+          padding: 16px;
+          font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+          font-weight: 400;
+          
+      }
+    .footerButtons {
+      display: flex;
+      gap: 8px; 
+      margin-top: 20px; // Adjust margin to better align buttons
+      justify-content: flex-end; // Align buttons to the right
+      // display: flex;
+      // justify-content: flex-end; /* Aligns buttons to the right */
+      // gap: 8px; 
+      // margin-top: 158px;
+      // margin-left: 2%;
+      // margin-right: 9px;
+  
+    }
+  // .cardContainer{
+  //   // display: flex;
+  //   flex-wrap: wrap;
+  //   width: 50%;
+  //   height: 500px;
+  //   flex-direction: row;
+  //   border: 1px solid var(--lightgrey);
+  //   border-radius: 8px;
+  //   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  //   padding-left: 8px;
+  //   margin-left: -60px;
+  //   margin-top: 26px;
+  // }
+
+
+  // .label_style {
+  //   font-size: larger;
+  //   font-weight: bold;
+  // }
+
+
+  .form__card {
+    margin-bottom: 20px;
+  }
+  .emailInput{
+    margin-top: -53px;
+  }
+  .passInput{
+    margin-top: 60px;
+
+  }
+  .cardContainer_Pass {
+    flex: 1;
+    max-width: 409px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 415px;
+    border: 1px solid var(--lightgrey);
+    border-radius: 8px;
+    margin-top: 45px;
+  }
+  .styellabel {
+    margin-bottom: 0px;
+    font-style: normal;
+    font-size: 13px;
+    
+  }
+  .cardProfilebody{
+  position: relative;
+  padding: 0px;
+  margin-top: -15px;
+  margin-left: -1px;
+
+  }
+  .details{
+    transform: translate(116px, -105px);
+  }

@@ -1,0 +1,665 @@
+@import '/src/styles/colors.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; // Ensure the content is vertically centered within the viewport heigh
+
+}
+.avatarParticipant{
+  width: 75px;
+  height: 54px;
+  border-radius: 50%; /* For round avatar */
+  object-fit: cover; 
+  margin-right: 12px;
+}
+.container_soutenance {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.imageWrapper {
+  position: relative;
+  text-align: center;
+}
+.avatarIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.image {
+  position: relative;
+  transform: translateY(-43%);
+  width: 111%;
+  right: 2%;
+}
+
+.arrow {
+  position: absolute;
+  right: -232%;
+  top: -50%;
+  transform: translateY(-47%);
+  width: 111%;
+}
+
+.btn {
+  width: 92%;
+  position: absolute;
+  right: -267%;
+  top: -190%;
+  transform: translateY(-25%);
+  background: linear-gradient(
+                  90deg,
+                  rgba(2, 0, 36, 0.7623249984) 0%,
+                  rgba(73, 32, 195, 0.9051821412) 81%
+  );
+}
+
+.button {
+  width: 13%;
+  position: absolute;
+  right: 5%;
+  transform: translate(0%, -122%);
+  background: linear-gradient(90deg, rgba(10, 0, 187, 0.92) 0%, rgba(71, 14, 240, 0.84) 81%);
+}
+
+.add {
+  width: 17px;
+  right: 65px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: -4px;
+  stroke: white;
+  stroke-width: 5%;
+}
+
+.aiicon {
+  width: 20px;
+  fill: white !important;
+  right: 72%;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+}
+
+.duscicon {
+  width: 18px;
+  fill: white !important;
+  right: 72%;
+  display: flex;
+  flex-direction: column-reverse;
+  transform: translate(-17px, 0px);
+}
+
+.disabledButton {
+  cursor: not-allowed; /* Show "not allowed" cursor */
+  opacity: 0.5; /* Reduce opacity to make it look grayed out */
+  pointer-events: none; /* Prevent any interaction */
+}
+
+.label {
+  margin-bottom: 0px;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 15%;
+}
+
+.sidebarOpen {
+  width: 250px;
+  transition: width 0.3s;
+  background-color: #f4f4f4;
+  padding: 16px;
+}
+
+.sidebarClosed {
+  width: 80px;
+  transition: width 0.3s;
+  background-color: #f4f4f4;
+  padding: 16px;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 16px;
+  transition: margin-left 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContentWithSidebarOpen {
+  margin-left: 112px;
+}
+
+.mainContentWithSidebarClosed {
+  margin-left: 102px;
+}
+
+.heading {
+  margin-top: 60px;
+  margin-left: -70px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  margin-left: -109px; /* Ajustez si nécessaire */
+  margin-top: 31px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.card_resume,
+.card_participant,
+.card_project,
+.card_ppt,
+.card_contribution {
+  background-color: white;
+  border-radius: 8px;
+  word-break: break-all;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex: 0 1 calc(33.33% - 32px); /* Utilisez 33.33% pour 3 éléments */
+  height: 300px;
+  width: calc(33.33% - 32px); /* Assurez-vous que la largeur est la même */
+  margin-bottom: 47px;
+}
+
+.container_blank {
+  display: flex;
+  flex-direction: column; // Arrange les éléments en colonne
+  align-items: center; // Centre les éléments horizontalement
+  height: 100vh; // Prend la hauteur de la fenêtre
+  width: 100%; // Prend la largeur du conteneur
+  text-align: center; // Centre le texte à l'intérieur
+}
+
+.textContainer {
+  width: 100%;
+  margin-top: 20px; // Ajoute un espace entre l'image et le texte (ajustez selon vos besoins)
+}
+
+.opportunity_creator_name {
+  width: 100%;
+  text-align: center;
+  font-weight: bold; /* Met le texte en gras */
+  margin: 0; /* Supprime les marges par défaut */
+}
+
+.creationDate {
+  width: 100%;
+  text-align: center;
+  margin: 0; /* Supprime les marges par défaut */
+}
+/* Optionally, add custom scrollbar styles if needed */
+.cardContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cardContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.cardContainer::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footerButtons {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px; // Adjust margin to better align buttons
+  justify-content: flex-end; // Align buttons to the right
+  align-items: center;
+  padding: 20px 28px;
+  font-size: 17px;
+}
+
+.closeButton {
+  width: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 96%;
+  fill: #000000fa !important;
+  transform: translate(3px, -34px);
+  cursor: pointer;
+}
+
+.custom_card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--lightgrey);
+  background-image: url('./../../../public/images/opportuniter.png');
+  background-size: cover; /* Adjust background-size to 'cover' */
+  height: 76%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  filter: brightness(90%);
+}
+
+.button_item_op {
+  width: 14%;
+  text-align: left;
+  font-size: xx-small;
+  color: black;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.button_item_particp {
+  width: 36%;
+  text-align: left;
+  font-size: xx-small;
+  color: black;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.label_style {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.download,
+.chevron_opened {
+  display: flex;
+  flex-direction: row-reverse;
+  transform: translateY(-113%);
+  width: 30px;
+  height: 19px;
+  color: gray;
+  padding: 0;
+  overflow: hidden;
+  fill: none !important;
+  stroke-opacity: 100%;
+  margin-left: 93%;
+  stroke-width: 3%;
+}
+
+.contribution {
+  display: flex;
+  flex-direction: row-reverse;
+  transform: translateY(-113%);
+  width: 33px;
+  height: 17px;
+  color: gray;
+  padding: 0;
+  overflow: hidden;
+  fill: none !important;
+  stroke-opacity: 100%;
+  margin-left: 93%;
+}
+
+.cardBody::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.cardBody {
+  //padding: 16px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
+  color: white;
+  max-height: 200px;
+  margin-top: 10%;
+}
+
+
+/* Optional: Style for the scrollbar */
+.cardBody::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin: 0 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #eee;
+}
+
+/* Overlay for the popup */
+.popupOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+/* Popup container */
+.popupdash {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 46%;
+  width: 113%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Close button styling */
+.closeButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transform: translate(-1px, -3px);
+
+}
+
+.avatarmsg {
+  width: 38px;
+  height: 37px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transform: translate(-4px, 11px);
+}
+
+.cardy {
+  padding: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  color: rgba(85, 85, 85, 0.7411764706);
+  box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.5098039216);
+}
+
+/* Title styling */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.activeButton {
+  background-color: #e7e7e7; /* Change to your desired color */
+  color: #fff; /* Optional: Adjust text color */
+}
+
+/* Subtitle styling */
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+/* Progress bar container */
+.progressBarContainer {
+  //display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Progress bar background */
+.progressBar {
+  width: 70%;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Progress bar fill */
+.progress {
+  height: 100%;
+  background: linear-gradient(to right, #ff6347, #ffa07a);
+  border-radius: 4px;
+}
+
+/* Progress text */
+.progressText {
+  font-size: 14px;
+  color: #333;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  transform: scale(7, 7);
+  width: 50%;
+  height: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Icon container */
+.iconContainer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Custom icon style */
+.avatar_icon {
+  width: 80px;
+  height: 80px;
+  fill: url(#gradient); /* Applying gradient fill */
+}
+
+// .loadingPopup {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background-color: rgba(255, 255, 255, 0.8);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   z-index: 1000; // Assurez-vous que le popup est au-dessus des autres éléments
+// }
+.loadingimg {
+  width: 40%;
+  height: 40px;
+  fill: #ff6347; /* Example color, use any color code you prefer */
+  /* Add custom hover effect if needed */
+  transition: transform 0.2s ease;
+}
+
+// .popup-footer {
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .popup-button {
+//   background-color: #4CAF50;
+//   color: white;
+//   padding: 10px 20px;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }
+
+
+.pagination button.active {
+  background-color: #230c45;
+  color: #fff;
+  border-color: #230c45;
+}
+
+.pagination .dots {
+  margin: 0 5px;
+}
+
+.cardBody::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.cardBody::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovered */
+}
+
+.send {
+  width: 27px;
+  fill: none !important;
+  right: 65px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+}
+
+// .add {
+//   width: 17px;
+//   right: 65px;
+//   display: flex;
+//   flex-direction: column-reverse;
+//   margin-left: auto;
+// }
+.profile_link {
+  display: flex;
+  justify-content: flex-start;
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  button.avatar_logo {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 11px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .ppt_icon {
+    margin-right: 8px; // Space between the avatar and the name
+  }
+
+  /*
+    .button.spiner_logoo{
+      display: flex;
+      align-items: center;
+      margin: 11px;
+      transform: translate(272px, 4px);
+      animation: rotation 2s linear infinite;
+    }*/
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  button.spiner {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 11px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+  }
+
+  button.spiner_logo {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 11px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+    transform: translate(272px, 4px);
+  }
+
+  .avatar_icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+// select.module.scss
+
+.selectContainer {
+  display: flex; // Utilise Flexbox
+  flex-direction: column; // Aligne les éléments en colonne
+  align-items: center; // Centre horizontalement
+  justify-content: center; // Centre verticalement (si le conteneur a une hauteur définie)
+  margin: 20px 0; // Ajoute un espacement vertical autour du conteneur
+}
+
+.select {
+  padding: 10px; // Espacement interne
+  font-size: 16px; // Taille de la police
+  border: 1px solid #ccc; // Bordure
+  border-radius: 4px; // Coins arrondis
+  background-color: #fff; // Couleur de fond
+  transition: border-color 0.3s; // Transition pour la bordure
+
+  &:focus {
+    border-color: #007bff; // Couleur de la bordure au focus
+    outline: none; // Supprime le contour par défaut
+  }
+
+  option {
+    font-size: 14px; // Taille de la police pour les options
+  }
+}
+
+@media (max-width: 1200px) {
+  .card_resume,
+  .card_participant,
+  .card_project,
+  .card_ppt,
+  .card_contribution {
+    flex: 1 1 calc(50% - 32px);
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card_resume,
+  .card_participant,
+  .card_project,
+  .card_ppt,
+  .card_contribution {
+    flex: 1 1 calc(100% - 32px);
+    height: 200px;
+    width: 100%;
+  }
+}

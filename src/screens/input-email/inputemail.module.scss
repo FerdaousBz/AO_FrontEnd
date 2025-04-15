@@ -1,0 +1,32 @@
+@import '/src/styles/globals.scss';
+.form_group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2px;
+}
+.label {
+  margin-bottom: 7px;
+  font-style: normal;
+  font-size: 14px;
+  color: #333;
+  font-weight: bolder;
+  margin-right: 85%;
+}
+
+.text_area {
+  position: relative;
+  width: 97%;
+  margin-bottom: 15px;
+}
+.highlight {
+  color: rgb(242, 138, 71);
+}
+.create_account {
+  font-family: 'Montserrat regular';
+  font-size: 10px;
+  color: #3333335d;
+  text-decoration: none;
+  margin-top: 27px;
+  padding-bottom: unset;
+}

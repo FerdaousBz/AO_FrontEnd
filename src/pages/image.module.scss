@@ -1,0 +1,12 @@
+.under_cons_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-color: red !important; /* Optional: add a background color for contrast */
+}
+
+.under_cons_image {
+  width: 35em; /* x-large size */
+  background-color: black !important; /* Optional: add a background color for contrast */
+}

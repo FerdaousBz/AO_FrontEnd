@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 95vw;
+  overflow: hidden;
+  margin-left: 52px;
+  margin-top: -50px;
+}
+.content {
+  flex-basis: 100%;
+  flex-grow: 0;
+  padding: 40px 20px;
+  overflow-x: hidden;
+}
+

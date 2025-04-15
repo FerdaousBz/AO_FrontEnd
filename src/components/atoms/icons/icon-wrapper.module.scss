@@ -1,0 +1,80 @@
+.icon {
+  display: inline-block;
+  color: inherit;
+
+  &,
+  img,
+  svg,
+  path {
+    fill: var(--svg-color) !important;
+  }
+
+  circle,
+  circle + path {
+    fill: none;
+    stroke: var(--svg-color) !important;
+  }
+}
+
+.icon--sizexxs {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-xxs);
+    height: var(--icon-size-xxs);
+  }
+}
+
+.icon--sizexs {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-xs);
+    height: var(--icon-size-xs);
+  }
+}
+
+.icon--sizes {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-s);
+    height: var(--icon-size-s);
+  }
+}
+
+.icon--sizem {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-m);
+    height: var(--icon-size-m);
+  }
+}
+
+.icon--sizel {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-l);
+    height: var(--icon-size-l);
+  }
+}
+
+.icon--sizexl {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-xl);
+    height: var(--icon-size-xl);
+  }
+}
+
+.icon--sizexxl {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-xxl);
+    height: var(--icon-size-xxl);
+  }
+}

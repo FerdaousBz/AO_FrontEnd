@@ -1,0 +1,2082 @@
+{
+  "data": [
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-11-12T17:59:19+0100",
+        "activityAreas": [
+          "Agile"
+        ],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Assurance",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2027-02-20T00:00:00+0100",
+        "title": "Dév. JAVA senior - Spécialiste Editique - Contrats 01.03.12, 05.06.12 du 03.01.13 - LODH - (21.03.2012-31.03.2013)",
+        "closingDate": "2025-11-27",
+        "reference": "AO20",
+        "activityArea": null,
+        "id": "20",
+        "startDate": "immediate"
+      },
+      "hasDocument": true,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Manager",
+          "attributes": {
+            "lastName": "Florence",
+            "firstName": "FORESTI"
+          },
+          "id": "2",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Switzerland"
+          },
+          "id": "6",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "UBP"
+          },
+          "id": "7",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ALTUR",
+            "firstName": "Jean-Baptiste"
+          },
+          "id": "7",
+          "type": "contact"
+        },
+        {
+          "attributes": {
+            "name": "APAS BTP - Appli Mobile - Cahier des charges Technique.pdf"
+          },
+          "id": "17_document",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-11-11T12:38:47+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "9. Perdu",
+        "type": "opportunity",
+        "creationDate": "2027-02-20T00:00:00+0100",
+        "title": "System Administrator - Galderma - PERDU",
+        "closingDate": "",
+        "reference": "AO19",
+        "activityArea": null,
+        "id": "19",
+        "startDate": "immediate"
+      },
+      "hasDocument": true,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Manager",
+          "attributes": {
+            "lastName": "Florence",
+            "firstName": "FORESTI"
+          },
+          "id": "2",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Switzerland"
+          },
+          "id": "6",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "UBP"
+          },
+          "id": "7",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ALTUR",
+            "firstName": "Jean-Baptiste"
+          },
+          "id": "7",
+          "type": "contact"
+        },
+        {
+          "attributes": {
+            "name": "APAS BTP - Appli Mobile - Cahier des charges Technique.pdf"
+          },
+          "id": "19_document",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-11-11T14:41:14+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2024-10-21T10:26:54+0200",
+        "title": "PRJ9999",
+        "closingDate": "",
+        "reference": "AO43",
+        "activityArea": null,
+        "id": "43",
+        "startDate": "immediate"
+      },
+      "hasDocument": true,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "Banque Pictet & Cie SA"
+          },
+          "id": "87",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Hainard",
+            "firstName": "Géraldine"
+          },
+          "id": "168",
+          "type": "contact"
+        },
+        {
+          "attributes": {
+            "name": "APAS BTP - Appli Mobile - Cahier des charges Technique.pdf"
+          },
+          "id": "22_document",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-11-11T15:05:19+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Banque",
+        "stateValue": "5. Soutenance",
+        "type": "opportunity",
+        "creationDate": "2024-10-03T16:53:03+0200",
+        "title": "Test Manager - Front Tech - 709",
+        "closingDate": "",
+        "reference": "AO42",
+        "activityArea": null,
+        "id": "42",
+        "startDate": "immediate"
+      },
+      "hasDocument": true,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "Banque Pictet & Cie SA"
+          },
+          "id": "87",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Hainard",
+            "firstName": "Géraldine"
+          },
+          "id": "168",
+          "type": "contact"
+        },
+        {
+          "attributes": {
+            "name": "APAS BTP - Appli Mobile - Cahier des charges Technique.pdf"
+          },
+          "id": "23_document",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-09T14:14:52+0200",
+        "activityAreas": [
+          "Agile",
+          "Big Data"
+        ],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "transports",
+        "stateValue": "6. Lobbying",
+        "type": "opportunity",
+        "creationDate": "2024-10-03T16:48:17+0200",
+        "title": "Data Analyst SAS",
+        "closingDate": "",
+        "reference": "AO41",
+        "activityArea": null,
+        "id": "41",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "SNCF VOYAGEURS IDF"
+          },
+          "id": "86",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "COUTIERE",
+            "firstName": "Béatrice"
+          },
+          "id": "167",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-03T16:45:14+0200",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "1. Identifié",
+        "type": "opportunity",
+        "creationDate": "2024-10-03T16:44:33+0200",
+        "title": "C10- CP MDM/ Data",
+        "closingDate": "",
+        "reference": "AO40",
+        "activityArea": null,
+        "id": "40",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "C10"
+          },
+          "id": "85",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "PICHAT",
+            "firstName": "Benoît"
+          },
+          "id": "166",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-09T14:14:50+0200",
+        "activityAreas": [
+          "Data Engineer"
+        ],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Aéronautique",
+        "stateValue": "4. Proposition envoyée",
+        "type": "opportunity",
+        "creationDate": "2024-10-03T16:37:35+0200",
+        "title": "Lead Data Engineer AWS",
+        "closingDate": "",
+        "reference": "AO39",
+        "activityArea": null,
+        "id": "39",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "SAFRAN LANDING SYSTEMS"
+          },
+          "id": "84",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Lopez",
+            "firstName": "Adeline"
+          },
+          "id": "165",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-03T16:35:34+0200",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Banque",
+        "stateValue": "1. Identifié",
+        "type": "opportunity",
+        "creationDate": "2024-10-03T16:33:53+0200",
+        "title": "Data",
+        "closingDate": "",
+        "reference": "AO38",
+        "activityArea": null,
+        "id": "38",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "LCL"
+          },
+          "id": "83",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "PETETIN",
+            "firstName": "Brice"
+          },
+          "id": "164",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-11-11T14:29:59+0100",
+        "activityAreas": [
+          "Data Engineer"
+        ],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Banque",
+        "stateValue": "3. Proposition à faire",
+        "type": "opportunity",
+        "creationDate": "2024-10-03T16:29:52+0200",
+        "title": "Data Ingénieur ELK",
+        "closingDate": "",
+        "reference": "AO37",
+        "activityArea": null,
+        "id": "37",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "BNP ITG"
+          },
+          "id": "82",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "CHABANE",
+            "firstName": "Stéphanie"
+          },
+          "id": "163",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-03T16:23:39+0200",
+        "activityAreas": [
+          "Data Engineer"
+        ],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Télécommunications",
+        "stateValue": "1. Identifié",
+        "type": "opportunity",
+        "creationDate": "2024-10-03T16:21:02+0200",
+        "title": "Ingénieur MS BI",
+        "closingDate": "",
+        "reference": "AO36",
+        "activityArea": null,
+        "id": "36",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "Orange France"
+          },
+          "id": "81",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "DIRAMI",
+            "firstName": "Mourad"
+          },
+          "id": "162",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-03T16:14:02+0200",
+        "activityAreas": [
+          "digitalfront"
+        ],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Assurance",
+        "stateValue": "1. Identifié",
+        "type": "opportunity",
+        "creationDate": "2024-10-03T14:34:13+0200",
+        "title": "Dev frontend Angluar (Senior)",
+        "closingDate": "",
+        "reference": "AO35",
+        "activityArea": null,
+        "id": "35",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "CARDIF"
+          },
+          "id": "80",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "VIGREUX",
+            "firstName": "Arnaud"
+          },
+          "id": "161",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-09-27T16:36:27+0200",
+        "activityAreas": [
+          "Agile",
+          "Big Data"
+        ],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "1. Identifié",
+        "type": "opportunity",
+        "creationDate": "2024-09-27T16:31:11+0200",
+        "title": "Renfort Backlog - Data analyst Senior",
+        "closingDate": "",
+        "reference": "AO34",
+        "activityArea": null,
+        "id": "34",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "ADP AEROPORT DE PARIS"
+          },
+          "id": "79",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "IMEGALINE-SAIDANI",
+            "firstName": "Zina"
+          },
+          "id": "160",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-09-27T16:23:20+0200",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "industrie",
+        "stateValue": "1. Identifié",
+        "type": "opportunity",
+        "creationDate": "2024-09-27T16:22:53+0200",
+        "title": "Mission Devops engineer 40 jours",
+        "closingDate": "",
+        "reference": "AO33",
+        "activityArea": null,
+        "id": "33",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "Bluesign technologies AG"
+          },
+          "id": "78",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Vandeweghe",
+            "firstName": "Nicolas"
+          },
+          "id": "159",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-09-27T16:12:37+0200",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Automobile",
+        "stateValue": "1. Identifié",
+        "type": "opportunity",
+        "creationDate": "2024-09-27T16:12:37+0200",
+        "title": "BA IA @Scale",
+        "closingDate": "",
+        "reference": "AO32",
+        "activityArea": null,
+        "id": "32",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "RENAULT SAS"
+          },
+          "id": "77",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "CHIKH-BEKADA",
+            "firstName": "Idriss"
+          },
+          "id": "158",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-03T16:15:18+0200",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Secteur public",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2024-09-27T15:22:36+0200",
+        "title": "Data analyst",
+        "closingDate": "",
+        "reference": "AO31",
+        "activityArea": null,
+        "id": "31",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS 2"
+          },
+          "id": "2",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Pôle test"
+          },
+          "id": "1",
+          "type": "pole"
+        },
+        {
+          "attributes": {
+            "name": "RTBF"
+          },
+          "id": "76",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Servotte",
+            "firstName": "Michaël"
+          },
+          "id": "157",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-12-22T22:24:40+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2024-02-20T00:00:00+0100",
+        "title": "Oracle - Nouvelles solutions - Etat de Vaud-CEI - New version 120419 - SIGNE",
+        "closingDate": "",
+        "reference": "AO18",
+        "activityArea": null,
+        "id": "18",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Manager",
+          "attributes": {
+            "lastName": "Florence",
+            "firstName": "FORESTI"
+          },
+          "id": "2",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Switzerland"
+          },
+          "id": "6",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "UBP"
+          },
+          "id": "7",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ALTUR",
+            "firstName": "Jean-Baptiste"
+          },
+          "id": "7",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-09T10:37:38+0200",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2023-03-14T10:46:47+0100",
+        "title": "test",
+        "closingDate": "",
+        "reference": "AO30",
+        "activityArea": null,
+        "id": "30",
+        "startDate": "immediate"
+      },
+      "hasDocument": true,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "LVMH"
+          },
+          "id": "3",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ARNAULT",
+            "firstName": "Bernard"
+          },
+          "id": "3",
+          "type": "contact"
+        },
+        {
+          "attributes": {
+            "name": "DEP_DNO_IA_IA_240827-01.pdf"
+          },
+          "id": "3_document",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2023-02-28T11:47:54+0100",
+        "activityAreas": [],
+        "typeOfValue": "test",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2023-02-22T14:10:43+0100",
+        "title": "test",
+        "closingDate": "",
+        "reference": "AO29",
+        "activityArea": null,
+        "id": "29",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "LVMH"
+          },
+          "id": "3",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ARNAULT",
+            "firstName": "Bernard"
+          },
+          "id": "3",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-12-22T22:24:40+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2023-02-20T00:00:00+0100",
+        "title": "Oracle - Migration, New licences (Prod & D&T) & Hyperion (4 parties ) - EFG FP",
+        "closingDate": "",
+        "reference": "AO17",
+        "activityArea": null,
+        "id": "17",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Manager",
+          "attributes": {
+            "lastName": "Florence",
+            "firstName": "FORESTI"
+          },
+          "id": "2",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Switzerland"
+          },
+          "id": "6",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "UBP"
+          },
+          "id": "7",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ALTUR",
+            "firstName": "Jean-Baptiste"
+          },
+          "id": "7",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2022-11-15T16:07:03+0100",
+        "activityAreas": [
+          "Dev Fullstack"
+        ],
+        "typeOfValue": "Licences",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Automobile",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2022-11-15T16:05:57+0100",
+        "title": "Elbow inc",
+        "closingDate": "",
+        "reference": "AO27",
+        "activityArea": null,
+        "id": "27",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "TEST ANAIS Client - Tesla Inc."
+          },
+          "id": "19",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Musk",
+            "firstName": "Elon"
+          },
+          "id": "23",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2022-09-07T16:04:52+0200",
+        "activityAreas": [],
+        "typeOfValue": "Régie par lot",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Automobile",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2022-09-07T16:04:52+0200",
+        "title": "New radio webapp",
+        "closingDate": "",
+        "reference": "AO26",
+        "activityArea": null,
+        "id": "26",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "TEST ANAIS Client - Tesla Inc."
+          },
+          "id": "19",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Musk",
+            "firstName": "Elon"
+          },
+          "id": "23",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2022-09-07T16:03:05+0200",
+        "activityAreas": [],
+        "typeOfValue": "Forfait",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Automobile",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2022-09-07T15:57:12+0200",
+        "title": "New radio webapp",
+        "closingDate": "",
+        "reference": "TSL_RAD_WA",
+        "activityArea": null,
+        "id": "25",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "TEST ANAIS Client - Tesla Inc."
+          },
+          "id": "19",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Musk",
+            "firstName": "Elon"
+          },
+          "id": "23",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-12-30T21:05:57+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-12-30T00:00:00+0100",
+        "title": "Test",
+        "closingDate": "",
+        "reference": "AO24",
+        "activityArea": null,
+        "id": "24",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Consultant",
+          "attributes": {
+            "lastName": "ZIDANE",
+            "firstName": "Zinedine"
+          },
+          "id": "5",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "Engineering"
+          },
+          "id": "5",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Etat de Genève - OCSIN"
+          },
+          "id": "14",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "a",
+            "firstName": "gu"
+          },
+          "id": "18",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-12-23T10:54:34+0100",
+        "activityAreas": [],
+        "typeOfValue": "Forfait",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-12-23T00:00:00+0100",
+        "title": "TEREOS-DATA-PLATEFORME",
+        "closingDate": "",
+        "reference": "AO23",
+        "activityArea": null,
+        "id": "23",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "BNP"
+          },
+          "id": "5",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "KOLIKA",
+            "firstName": "Jean-Louis"
+          },
+          "id": "5",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-12-21T15:14:32+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-12-21T00:00:00+0100",
+        "title": "IT Release Manager",
+        "closingDate": "",
+        "reference": "AO16",
+        "activityArea": null,
+        "id": "16",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Switzerland"
+          },
+          "id": "6",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "UBP"
+          },
+          "id": "7",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ALTUR",
+            "firstName": "Jean-Baptiste"
+          },
+          "id": "7",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-12-21T15:07:51+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-12-21T00:00:00+0100",
+        "title": "Consultant senior Qlick",
+        "closingDate": "",
+        "reference": "AO15",
+        "activityArea": null,
+        "id": "15",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Mutuelle LMP"
+          },
+          "id": "6",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Dupont",
+            "firstName": "Jean"
+          },
+          "id": "6",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-11-05T16:51:43+0100",
+        "activityAreas": [
+          "DevOps"
+        ],
+        "typeOfValue": "Forfait",
+        "expertiseAreaValue": null,
+        "expertiseArea": "Energie",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-11-05T00:00:00+0100",
+        "title": "test projet forfait",
+        "closingDate": "",
+        "reference": "AO14",
+        "activityArea": null,
+        "id": "14",
+        "startDate": "2020-11-05"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "BNP"
+          },
+          "id": "5",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "KOLIKA",
+            "firstName": "Jean-Louis"
+          },
+          "id": "5",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-06-23T16:21:28+0200",
+        "activityAreas": [],
+        "typeOfValue": "Forfait",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-06-23T00:00:00+0200",
+        "title": "BIC-TMA",
+        "closingDate": "",
+        "reference": "AO13",
+        "activityArea": null,
+        "id": "13",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "LVMH"
+          },
+          "id": "3",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ARNAULT",
+            "firstName": "Bernard"
+          },
+          "id": "3",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-06-23T16:20:38+0200",
+        "activityAreas": [],
+        "typeOfValue": "Forfait",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-06-23T00:00:00+0200",
+        "title": "WSE-TMA",
+        "closingDate": "",
+        "reference": "AO12",
+        "activityArea": null,
+        "id": "12",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "LVMH"
+          },
+          "id": "3",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ARNAULT",
+            "firstName": "Bernard"
+          },
+          "id": "3",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-06-16T16:03:28+0200",
+        "activityAreas": [],
+        "typeOfValue": "Forfait",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-06-16T00:00:00+0200",
+        "title": "Tunnel Nutuus",
+        "closingDate": "",
+        "reference": "AO11",
+        "activityArea": null,
+        "id": "11",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "Mutuelle LMP"
+          },
+          "id": "6",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Dupont",
+            "firstName": "Jean"
+          },
+          "id": "6",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-17T10:07:17+0200",
+        "activityAreas": [],
+        "typeOfValue": "Forfait",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-05-15T00:00:00+0200",
+        "title": "Redmine",
+        "closingDate": "",
+        "reference": "AO10",
+        "activityArea": null,
+        "id": "10",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "LVMH"
+          },
+          "id": "3",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ARNAULT",
+            "firstName": "Bernard"
+          },
+          "id": "3",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-03-10T15:32:18+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-03-10T00:00:00+0100",
+        "title": "Gérer une base de donnée",
+        "closingDate": "",
+        "reference": "AO9",
+        "activityArea": null,
+        "id": "9",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "BNP"
+          },
+          "id": "5",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "KOLIKA",
+            "firstName": "Jean-Louis"
+          },
+          "id": "5",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-03-10T15:30:30+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-03-10T00:00:00+0100",
+        "title": "Créer un projet QSI",
+        "closingDate": "",
+        "reference": "AO8",
+        "activityArea": null,
+        "id": "8",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "PSG"
+          },
+          "id": "4",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "EL KHALAFI",
+            "firstName": "Nasser"
+          },
+          "id": "4",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-03-10T15:49:17+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-03-10T00:00:00+0100",
+        "title": "Créer 100 sacs",
+        "closingDate": "",
+        "reference": "AO7",
+        "activityArea": null,
+        "id": "7",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "LVMH"
+          },
+          "id": "3",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "ARNAULT",
+            "firstName": "Bernard"
+          },
+          "id": "3",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-03-10T15:15:20+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "8. Gagné",
+        "type": "opportunity",
+        "creationDate": "2020-03-10T00:00:00+0100",
+        "title": "Créer 100 206",
+        "closingDate": "",
+        "reference": "AO6",
+        "activityArea": null,
+        "id": "6",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Directeur de BU",
+          "attributes": {
+            "lastName": "Ben younes",
+            "firstName": "Chaima"
+          },
+          "id": "1",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Datafactory"
+          },
+          "id": "4",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "PSA"
+          },
+          "id": "2",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "PEUGEOT",
+            "firstName": "Jean"
+          },
+          "id": "2",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2024-10-09T14:14:45+0200",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "2. Qualifié",
+        "type": "opportunity",
+        "creationDate": "2001-02-20T00:00:00+0100",
+        "title": "Développeur J2EE sénior VAUDOISE",
+        "closingDate": "",
+        "reference": "AO22",
+        "activityArea": null,
+        "id": "22",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Manager",
+          "attributes": {
+            "lastName": "Florence",
+            "firstName": "FORESTI"
+          },
+          "id": "2",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Switzerland"
+          },
+          "id": "6",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "ETA - Swatchgroup - Via Valjob"
+          },
+          "id": "16",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Hulmes",
+            "firstName": "Robert"
+          },
+          "id": "17",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "opportunityDetails": {
+        "updateDate": "2020-12-22T23:41:58+0100",
+        "activityAreas": [],
+        "typeOfValue": "Régie",
+        "expertiseAreaValue": null,
+        "expertiseArea": "-1",
+        "stateValue": "1. Identifié",
+        "type": "opportunity",
+        "creationDate": "2001-02-20T00:00:00+0100",
+        "title": "Dév Junior J2EE La Vaudoise",
+        "closingDate": "",
+        "reference": "AO21",
+        "activityArea": null,
+        "id": "21",
+        "startDate": "immediate"
+      },
+      "hasDocument": false,
+      "includedResources": [
+        {
+          "resourceTypeOfValue": "Manager",
+          "attributes": {
+            "lastName": "Florence",
+            "firstName": "FORESTI"
+          },
+          "id": "2",
+          "type": "resource"
+        },
+        {
+          "attributes": {
+            "name": "JEMS Switzerland"
+          },
+          "id": "6",
+          "type": "agency"
+        },
+        {
+          "attributes": {
+            "name": "ETA - Swatchgroup - Via Valjob"
+          },
+          "id": "16",
+          "type": "company"
+        },
+        {
+          "attributes": {
+            "lastName": "Hulmes",
+            "firstName": "Robert"
+          },
+          "id": "17",
+          "type": "contact"
+        }
+      ]
+    }
+  ]
+}
+avec document true
+if has not  resume
+/api/files/generate-summary  fileid  body : POST [Output] 1 fois => resumeData
+generate ppt
+        get ppt
+else
+/api/files/get-resume/{fileId} ::::: GET :get resumeby FileId
+check ppt
